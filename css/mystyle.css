@@ -1,0 +1,38 @@
+/* Reset das configurações do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nosifer', serif;
+    text-rendering: optimizeLegibility;
+}
+
+/* Definição do barra de navegação */
+.bg-cor-que-eu-quero {
+    background: rgb(106, 241, 124);
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;   
+}
+
+.quadrado {
+    margin-top: 6em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30em;
+    height: 30em;
+}
+
+.celula {
+    width: 9em;
+    height: 9em;
+    box-shadow: .25em .25em .25em;
+}
+
+.btn-purpura {
+    background-color: blueviolet;
+}
